@@ -12,28 +12,17 @@ coverage
 *.zip
 *.tar.gz
 *.pem
-
-# Keep tracked asset folder (do not ignore attached_assets)
-!attached_assets/**
 .git
 .gitignore
 .env.local
 .env.*.local
-node_modules
-dist
-.next
-.vercel
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.DS_Store
-*.pem
-.vscode
-.idea
-coverage
 .nyc_output
-.turbo
 replit.md
-attached_assets
 migrations
-client/public
+
+# Keep the client attached_assets folder (required for images)
+!client/attached_assets/
+!client/attached_assets/**
