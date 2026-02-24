@@ -27,40 +27,47 @@ import {
 } from "lucide-react";
 import { useState, useRef, useEffect, useCallback } from "react";
 import logoImg from "@/assets/images/testimonial-1.png";
+import brusselsImg from "@assets/1_1770364375709.png";
+import heroImg1 from "@assets/6_1770364745985.png";
+import heroImg2 from "@assets/10_1770364759673.png";
+import heroImg3 from "@assets/12_1770364789747.png";
+import heroImg4 from "@assets/14_1770364803364.png";
+import flagsImg from "@assets/13_1770704029537.png";
+import teamImg from "@assets/4_1770704615902.png";
+import conferenceImg from "@assets/18_1770705052335.png";
+import officeImg from "@assets/24_1770705026051.png";
+import dialogueImg from "@assets/2_1770705446150.png";
+import parliamentImg from "@assets/10_1770706417241.png";
+import carouselEuFlags from "@assets/12_1770747453084.png";
+import carouselLounge from "@assets/19_1770747703730.png";
+import carouselTeamwork from "@assets/5_1770748404905.png";
+import carouselParliament from "@assets/14_1770748418277.png";
+import carouselNetworking from "@assets/23_1770748470441.png";
 import testimonial1 from "@/assets/images/testimonial-1.png";
 import testimonial2 from "@/assets/images/testimonial-2.png";
 import testimonial3 from "@/assets/images/testimonial-3.png";
 
-// Placeholder image URL (gray placeholder)
-const PLACEHOLDER_IMG =
-  "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 800'%3E%3Crect fill='%23e5e7eb' width='1200' height='800'/%3E%3Ctext x='50%' y='50%' font-size='24' fill='%239ca3af' text-anchor='middle' dominant-baseline='middle'%3EImage will be added soon%3C/text%3E%3C/svg%3E";
-
-const heroImages = [
-  PLACEHOLDER_IMG,
-  PLACEHOLDER_IMG,
-  PLACEHOLDER_IMG,
-  PLACEHOLDER_IMG,
-];
+const heroImages = [heroImg1, heroImg2, heroImg3, heroImg4];
 
 const carouselImages = [
   {
-    src: PLACEHOLDER_IMG,
+    src: carouselEuFlags,
     alt: "European Union flags at EU institutions in Brussels",
   },
   {
-    src: PLACEHOLDER_IMG,
+    src: carouselLounge,
     alt: "Modern meeting space for diplomatic consultations",
   },
   {
-    src: PLACEHOLDER_IMG,
+    src: carouselTeamwork,
     alt: "Team collaboration and professional development",
   },
   {
-    src: PLACEHOLDER_IMG,
+    src: carouselParliament,
     alt: "European Parliament with international flags",
   },
   {
-    src: PLACEHOLDER_IMG,
+    src: carouselNetworking,
     alt: "Networking at international policy conferences",
   },
 ];
@@ -454,7 +461,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="rounded-md overflow-hidden shadow-xl group">
                     <img
-                      src={PLACEHOLDER_IMG}
+                      src={brusselsImg}
                       alt="Brussels architecture"
                       className="w-full h-[300px] md:h-[380px] object-cover transition-transform duration-700 group-hover:scale-105"
                       data-testid="img-about-brussels"
@@ -558,7 +565,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="rounded-md overflow-hidden shadow-xl group">
                     <img
-                      src={PLACEHOLDER_IMG}
+                      src={flagsImg}
                       alt="International flags representing global diplomacy"
                       className="w-full h-[300px] md:h-[380px] object-cover transition-transform duration-700 group-hover:scale-105"
                       data-testid="img-flags"
@@ -717,7 +724,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="rounded-md overflow-hidden shadow-xl group">
                     <img
-                      src={PLACEHOLDER_IMG}
+                      src={teamImg}
                       alt="Team collaboration and capacity building"
                       className="w-full h-[300px] md:h-[380px] object-cover transition-transform duration-700 group-hover:scale-105"
                       data-testid="img-team"
@@ -852,7 +859,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="rounded-md overflow-hidden shadow-xl group">
                     <img
-                      src={PLACEHOLDER_IMG}
+                      src={officeImg}
                       alt="Modern training and collaboration space"
                       className="w-full h-[300px] md:h-[380px] object-cover transition-transform duration-700 group-hover:scale-105"
                       data-testid="img-office"
@@ -1032,7 +1039,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="rounded-md overflow-hidden shadow-xl group">
                     <img
-                      src={PLACEHOLDER_IMG}
+                      src={conferenceImg}
                       alt="Conference room for strategic dialogues"
                       className="w-full h-[300px] md:h-[380px] object-cover transition-transform duration-700 group-hover:scale-105"
                       data-testid="img-conference"
@@ -1162,7 +1169,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="rounded-md overflow-hidden shadow-xl group">
                     <img
-                      src={PLACEHOLDER_IMG}
+                      src={dialogueImg}
                       alt="Professional roundtable meeting with senior leaders"
                       className="w-full h-[300px] md:h-[380px] object-cover transition-transform duration-700 group-hover:scale-105"
                       data-testid="img-dialogue"
@@ -1389,7 +1396,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="rounded-md overflow-hidden shadow-xl group">
                     <img
-                      src={PLACEHOLDER_IMG}
+                      src={parliamentImg}
                       alt="European Parliament building with international flags"
                       className="w-full h-[300px] md:h-[380px] object-cover transition-transform duration-700 group-hover:scale-105"
                       data-testid="img-parliament"
