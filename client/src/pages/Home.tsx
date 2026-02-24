@@ -26,7 +26,7 @@ import {
   ChevronRight,
 } from "lucide-react";
 import { useState, useRef, useEffect, useCallback } from "react";
-import logoImg from "@/assets/images/testimonial-1.png";
+import logoImg from "@assets/Brussels_Institute_1770363386884.png";
 import brusselsImg from "@assets/1_1770364375709.png";
 import heroImg1 from "@assets/6_1770364745985.png";
 import heroImg2 from "@assets/10_1770364759673.png";
