@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: 210 65% 12%;
+  --gold: 38 56% 51%;
+  --gold-light: 38 56% 61%;
+  --gray-light: 210 20% 97%;
+  --text-dark: 0 0% 11%;
+
+  --background: 0 0% 100%;
+  --foreground: var(--text-dark);
+
+  --primary: var(--navy);
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: var(--gold);
+  --secondary-foreground: 210 65% 12%;
+
+  --muted: var(--gray-light);
+  --muted-foreground: 215 16% 47%;
+
+  --accent: var(--gold);
+  --accent-foreground: var(--navy);
+
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: var(--navy);
+
+  --radius: 0.25rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Libre Baskerville', serif;
+    @apply text-primary font-bold tracking-tight;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-gold {
+    color: hsl(var(--gold));
+  }
+  .bg-gold {
+    background-color: hsl(var(--gold));
+  }
+  .bg-navy {
+    background-color: hsl(var(--navy));
+  }
+  .text-navy {
+    color: hsl(var(--navy));
+  }
+  .border-gold {
+    border-color: hsl(var(--gold));
+  }
+}
+
+@layer components {
+  .section-label {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase mb-6;
+    letter-spacing: 0.2em;
+    color: hsl(var(--gold));
+  }
+
+  .section-label::before,
+  .section-label::after {
+    content: '';
+    @apply w-8 h-px;
+    background-color: hsl(var(--gold) / 0.4);
+  }
+
+  .hero-grid-pattern {
+    background-image:
+      linear-gradient(rgba(200, 155, 60, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(200, 155, 60, 0.05) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  .stat-card {
+    @apply relative overflow-hidden rounded-md p-6 text-center;
+    background: linear-gradient(135deg, hsl(210 65% 12%) 0%, hsl(210 65% 18%) 100%);
+  }
+
+  .stat-card::before {
+    content: '';
+    @apply absolute top-0 left-0 right-0 h-1;
+    background: linear-gradient(90deg, transparent, hsl(var(--gold)), transparent);
+  }
+
+  .focus-card {
+    @apply relative p-8 rounded-md border border-gray-100 bg-white transition-all duration-500;
+  }
+
+  .focus-card:hover {
+    @apply shadow-xl;
+    border-color: hsl(var(--gold) / 0.3);
+    transform: translateY(-4px);
+  }
+
+  .focus-card::after {
+    content: '';
+    @apply absolute bottom-0 left-0 right-0 h-1 rounded-b-md opacity-0 transition-opacity duration-500;
+    background: linear-gradient(90deg, hsl(var(--gold)), hsl(var(--gold-light)));
+  }
+
+  .focus-card:hover::after {
+    @apply opacity-100;
+  }
+
+  .what-we-do-card {
+    @apply relative p-8 rounded-md bg-white border border-gray-100 transition-all duration-500 overflow-hidden;
+  }
+
+  .what-we-do-card::before {
+    content: '';
+    @apply absolute inset-0 opacity-0 transition-opacity duration-500;
+    background: linear-gradient(135deg, hsl(var(--navy) / 0.03), hsl(var(--gold) / 0.05));
+  }
+
+  .what-we-do-card:hover::before {
+    @apply opacity-100;
+  }
+
+  .what-we-do-card:hover {
+    @apply shadow-xl;
+    border-color: hsl(var(--gold) / 0.2);
+    transform: translateY(-6px);
+  }
+
+  .dialogue-item {
+    @apply relative flex items-start gap-4 p-6 rounded-md bg-white border border-gray-100 transition-all duration-300;
+  }
+
+  .dialogue-item:hover {
+    @apply shadow-lg;
+    border-color: hsl(var(--gold) / 0.3);
+    transform: translateX(4px);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse-gold {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delay {
+  animation: float 6s ease-in-out 2s infinite;
+}
+
+.animate-pulse-gold {
+  animation: pulse-gold 3s ease-in-out infinite;
+}

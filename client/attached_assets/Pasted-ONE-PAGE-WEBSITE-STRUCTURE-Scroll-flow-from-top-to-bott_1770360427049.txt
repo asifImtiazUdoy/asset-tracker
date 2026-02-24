@@ -1,0 +1,1127 @@
+ONE-PAGE WEBSITE STRUCTURE
+
+(Scroll flow from top to bottom)
+
+Think of this page as telling one coherent story:
+
+Who we are → What we focus on → What we offer → Why it matters → How to engage
+
+1. HERO SECTION (Top of the page)
+
+Purpose: Instantly establish credibility and focus.
+
+Layout:
+
+Big headline
+
+Short sub-headline
+
+1 primary CTA button
+
+Content:
+
+Brussels Institute for Diplomacy, Geopolitics and Peace Studies
+
+Executive training, policy research, and strategic dialogue
+at the intersection of EU, UN, and NATO affairs.
+
+[ Explore Our Programs ]
+
+
+Design tips:
+
+Background: abstract world map, Brussels skyline, or diplomatic meeting
+
+Keep this section short (50–70 words max)
+
+2. WHO WE ARE
+
+Purpose: Legitimacy + clarity
+
+Layout:
+
+Section title
+
+2 short paragraphs
+
+Content:
+
+WHO WE ARE
+
+The Brussels Institute for Diplomacy, Geopolitics and Peace Studies is an independent
+institute based in Brussels, operating at the intersection of European Union, United
+Nations, and NATO affairs.
+
+We support diplomats, senior officials, and international professionals in addressing
+today’s most pressing challenges in foreign policy, geopolitics, security, peacebuilding,
+and global governance.
+
+3. OUR MISSION
+
+Purpose: Direction + values
+
+Layout:
+
+Highlighted box or contrasting background
+
+1 strong paragraph
+
+Content:
+
+OUR MISSION
+
+To enhance diplomatic capacity, global geopolitical understanding, and strategic foresight
+within EU, UN, and NATO frameworks by delivering high-impact training, rigorous research,
+and informed policy engagement in support of peace, security, and effective global
+governance.
+
+4. KEY FOCUS AREAS (3-COLUMN SECTION)
+
+Purpose: Show intellectual scope clearly and fast
+
+Layout:
+
+3 columns (Diplomacy | Geopolitics | Peace Studies)
+
+Bullet points only (no paragraphs)
+
+Diplomacy
+
+Bilateral and multilateral negotiation
+
+Crisis management and conflict prevention
+
+Strategic communication and public diplomacy
+
+EU, UN, and NATO engagement strategies
+
+Geopolitics
+
+Global power dynamics and regional security
+
+Geoeconomics, sanctions, and strategic dependencies
+
+Hybrid threats, cyber operations, and information warfare
+
+Disruptive technologies and global competition
+
+Peace Studies
+
+Conflict resolution and mediation
+
+Post-conflict reconstruction and governance
+
+Security sector reform and human security
+
+International law and peacebuilding frameworks
+
+5. WHAT WE DO (Core Offer)
+
+Purpose: Explain your activities in practical terms
+
+Layout:
+
+Section title
+
+3 cards or blocks
+
+Capacity Building & Training
+
+Executive and professional programs designed to strengthen diplomatic practice,
+strategic analysis, and decision-making.
+
+Policy-Relevant Research
+
+Evidence-based research supporting policymakers and institutions in navigating
+geopolitical, security, and technological challenges.
+
+Strategic Dialogue Platforms
+
+High-level and expert dialogues enabling coordination, trust-building, and informed
+policy exchange.
+
+6. TRAINING & PROGRAM AREAS
+
+Purpose: Mirror the Economics & Peace “Training” section
+
+Layout:
+
+Accordion or expandable sections (very helpful on one-page sites)
+
+Short lists only
+
+NATO, EU & UN Affairs
+
+NATO governance and international security
+
+EU foreign, security and defence policy
+
+United Nations peacekeeping and multilateral diplomacy
+
+Geopolitics & Strategic Studies
+
+Global power structures and regional dynamics
+
+Hybrid threats and security challenges
+
+Strategic foresight and scenario planning
+
+Negotiation, Mediation & Conflict Resolution
+
+Conflict analysis and stakeholder mapping
+
+Mediation and negotiation techniques
+
+Human rights and ethical frameworks
+
+Tech Diplomacy & Global Governance
+
+Big Tech as geopolitical actors
+
+Ethical AI governance
+
+Technology, security and diplomacy
+
+Interreligious Dialogue & Peacebuilding
+
+Religion and international relations
+
+Interreligious dialogue as a diplomatic tool
+
+Intercultural communication
+
+7. PROGRAM OUTCOMES
+
+Purpose: Answer “Why should I care?”
+
+Layout:
+
+Checkmarks or icons
+
+Short, clear benefits
+
+Participants gain:
+
+Practical diplomatic and negotiation skills
+
+Strategic geopolitical and security insights
+
+In-depth understanding of EU, UN, and NATO frameworks
+
+Capacity to address complex, technology-driven global challenges
+
+8. STRATEGIC DIALOGUES – BRUSSELS DIALOGUES
+
+Purpose: Prestige + credibility
+
+Layout:
+
+Section title
+
+Short intro paragraph
+
+4 benefit bullets
+
+Content:
+
+STRATEGIC DIALOGUES – BRUSSELS DIALOGUES
+
+The Institute organizes Strategic Dialogues as neutral and credible platforms where
+policymakers, experts, and stakeholders engage on pressing issues in foreign policy,
+security, and peace.
+
+
+Why they matter:
+
+High-level policy coordination
+
+Expert knowledge exchange
+
+Confidential, closed-door consultations
+
+Addressing emerging geopolitical and technological challenges
+
+9. CALL TO ACTION (Bottom)
+
+Purpose: Give visitors a next step
+
+Layout:
+
+Strong statement
+
+One clear button
+
+Content:
+
+Engage with the Brussels Institute for Diplomacy,
+Geopolitics and Peace Studies
+
+[ Contact Us ]   [ Explore Programs ]
+
+10. FOOTER (Simple)
+Brussels Institute for Diplomacy, Geopolitics and Peace Studies
+Brussels, Belgium
+
+© 2026 All Rights Reserved
+
+Final practical advice (important)
+
+Short sections win — avoid long paragraphs
+
+Use accordion blocks for programs
+
+White space = credibility
+
+Avoid photos of random people; use:
+
+Brussels
+
+Institutions
+
+Abstract geopolitical visuals
+
+Next step (I’ll keep this easy):
+
+Tell me what platform you’re using (WordPress, Webflow, Wix, HTML), and I’ll give you:
+
+Exact section layout settings
+
+Font + color recommendations
+
+A copy-paste homepage template for that platform
+
+html 
+
+Nice — pure HTML is perfect for a clean, serious institute site. Let’s do this properly but simply.
+
+Below you’ll get:
+
+How to structure your project
+
+A complete one-page HTML file (clean, readable, easy to edit)
+
+Basic CSS (embedded, no frameworks)
+
+Tips to expand later without breaking anything
+
+You can copy-paste this and have a working site in minutes.
+
+1. Project structure (keep it simple)
+/institute-website
+ ├─ index.html
+ ├─ images/
+ │   └─ hero.jpg   (optional)
+
+
+You can keep everything in one file for now.
+
+2. One-page HTML (copy-paste ready)
+
+Save this as index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brussels Institute for Diplomacy, Geopolitics and Peace Studies</title>
+  <meta name="description" content="Executive training, policy research, and strategic dialogue at the intersection of EU, UN, and NATO affairs.">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      color: #1c1c1c;
+      line-height: 1.6;
+      background-color: #ffffff;
+    }
+
+    h1, h2, h3 {
+      font-weight: 600;
+      line-height: 1.3;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      max-width: 800px;
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    .hero {
+      background: #0b1f33;
+      color: #ffffff;
+      padding: 120px 10%;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 700px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #c89b3c;
+      color: #000;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .light-bg {
+      background-color: #f5f7f9;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    footer {
+      background: #0b1f33;
+      color: #ffffff;
+      padding: 40px 10%;
+      font-size: 0.9rem;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Brussels Institute for Diplomacy, Geopolitics and Peace Studies</h1>
+    <p>
+      Executive training, policy research, and strategic dialogue at the intersection
+      of European Union, United Nations, and NATO affairs.
+    </p>
+    <a href="#programs" class="btn">Explore Our Programs</a>
+  </section>
+
+  <!-- WHO WE ARE -->
+  <section id="about">
+    <h2>Who We Are</h2>
+    <p>
+      The Brussels Institute for Diplomacy, Geopolitics and Peace Studies is an independent
+      institute based in Brussels, operating at the intersection of EU, UN, and NATO affairs.
+    </p>
+    <p>
+      We support diplomats, senior officials, and international professionals in addressing
+      today’s most pressing challenges in foreign policy, geopolitics, security, peacebuilding,
+      and global governance.
+    </p>
+  </section>
+
+  <!-- MISSION -->
+  <section class="light-bg">
+    <h2>Our Mission</h2>
+    <p>
+      To enhance diplomatic capacity, global geopolitical understanding, and strategic foresight
+      within EU, UN, and NATO frameworks by delivering high-impact training, rigorous research,
+      and informed policy engagement in support of peace, security, and effective global governance.
+    </p>
+  </section>
+
+  <!-- KEY FOCUS AREAS -->
+  <section>
+    <h2>Key Focus Areas</h2>
+
+    <div class="grid-3">
+      <div>
+        <h3>Diplomacy</h3>
+        <ul>
+          <li>Bilateral and multilateral negotiation</li>
+          <li>Crisis management and conflict prevention</li>
+          <li>Strategic communication and public diplomacy</li>
+          <li>EU, UN, and NATO engagement strategies</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Geopolitics</h3>
+        <ul>
+          <li>Global power dynamics and regional security</li>
+          <li>Geoeconomics, sanctions, and strategic dependencies</li>
+          <li>Hybrid threats and cyber operations</li>
+          <li>Disruptive technologies and global competition</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Peace Studies</h3>
+        <ul>
+          <li>Conflict resolution and mediation</li>
+          <li>Post-conflict reconstruction and governance</li>
+          <li>Security sector reform and human security</li>
+          <li>International law and peacebuilding frameworks</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE DO -->
+  <section class="light-bg">
+    <h2>What We Do</h2>
+
+    <div class="grid-3">
+      <div>
+        <h3>Capacity Building & Training</h3>
+        <p>
+          Executive and professional programs designed to strengthen diplomatic practice,
+          strategic analysis, and decision-making.
+        </p>
+      </div>
+
+      <div>
+        <h3>Policy-Relevant Research</h3>
+        <p>
+          Evidence-based research supporting policymakers and institutions in navigating
+          geopolitical, security, and technological challenges.
+        </p>
+      </div>
+
+      <div>
+        <h3>Strategic Dialogue Platforms</h3>
+        <p>
+          High-level dialogues enabling coordination, trust-building, and informed policy exchange.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section id="programs">
+    <h2>Training & Program Areas</h2>
+
+    <h3>NATO, EU & United Nations Affairs</h3>
+    <ul>
+      <li>NATO governance and international security</li>
+      <li>EU foreign, security and defence policy</li>
+      <li>UN peacekeeping and multilateral diplomacy</li>
+    </ul>
+
+    <h3>Geopolitics & Strategic Studies</h3>
+    <ul>
+      <li>Global power structures and regional dynamics</li>
+      <li>Hybrid threats and security challenges</li>
+      <li>Strategic foresight and scenario planning</li>
+    </ul>
+
+    <h3>Negotiation, Mediation & Conflict Resolution</h3>
+    <ul>
+      <li>Conflict analysis and stakeholder mapping</li>
+      <li>Mediation and negotiation techniques</li>
+      <li>Human rights and ethical frameworks</li>
+    </ul>
+
+    <h3>Tech Diplomacy & Global Governance</h3>
+    <ul>
+      <li>Big Tech as geopolitical actors</li>
+      <li>Ethical AI governance</li>
+      <li>Technology, security and diplomacy</li>
+    </ul>
+
+    <h3>Interreligious Dialogue & Peacebuilding</h3>
+    <ul>
+      <li>Religion and international relations</li>
+      <li>Interreligious dialogue as a diplomatic tool</li>
+      <li>Intercultural communication</li>
+    </ul>
+  </section>
+
+  <!-- OUTCOMES -->
+  <section class="light-bg">
+    <h2>Program Outcomes</h2>
+    <ul>
+      <li>Practical diplomatic and negotiation skills</li>
+      <li>Enhanced geopolitical and strategic decision-making</li>
+      <li>In-depth understanding of EU, UN, and NATO frameworks</li>
+      <li>Capacity to address complex, technology-driven global challenges</li>
+    </ul>
+  </section>
+
+  <!-- STRATEGIC DIALOGUES -->
+  <section>
+    <h2>Strategic Dialogues – Brussels Dialogues</h2>
+    <p>
+      The Institute organizes Strategic Dialogues as neutral and credible platforms where
+      policymakers, experts, and stakeholders engage on pressing issues in foreign policy,
+      security, and peace.
+    </p>
+
+    <ul>
+      <li>High-level policy coordination</li>
+      <li>Expert knowledge exchange</li>
+      <li>Confidential consultations</li>
+      <li>Addressing emerging geopolitical and technological challenges</li>
+    </ul>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p><strong>Brussels Institute for Diplomacy, Geopolitics and Peace Studies</strong></p>
+    <p>Brussels, Belgium</p>
+    <p>© 2026 All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
+
+3. Why this works
+
+✔ Clean, professional, policy-style
+
+✔ Easy to edit text
+
+✔ Mobile-friendly grid
+
+✔ No frameworks, no dependencies
+
+✔ Scales later (you can split into pages)
+
+4. Next upgrades (optional, but powerful)
+
+If you want next:
+
+Sticky top navigation
+
+Smooth scrolling
+
+Accordion program sections
+
+Separate Research or Events pages
+
+Multilingual support (EN / FR)
+
+Tell me what you want next, and I’ll give you the exact HTML/CSS for it — no fluff, no frameworks.
+
+wix
+
+Perfect — Wix is actually great for this, especially for a clean one-page policy institute site. I’ll give you exact, click-by-click guidance, not vague advice.
+
+Below is how to build your one-page site in Wix, using the structure we already designed.
+
+STEP-BY-STEP: ONE-PAGE SITE IN WIX
+1. Create the site (important choice)
+
+Go to Wix → Create New Site
+
+Choose Business / Education (either is fine)
+
+Skip Wix ADI → choose Editor (not Studio for now)
+
+Pick a blank or minimal template
+
+Why: you want full control and a serious look.
+
+2. Page settings (foundation)
+
+Keep ONE page only (Home)
+
+Page width: max 1200–1300px
+
+Background color: white
+
+Enable Anchor Menu (very important)
+
+3. Fonts & colors (credibility matters)
+Fonts (Wix default safe picks)
+
+Headings: Playfair Display / Libre Baskerville / DM Serif
+
+Body: Lato / Open Sans / Inter
+
+Example:
+
+H1: 48–56px
+
+H2: 32–36px
+
+Body: 16–18px
+
+Colors (policy / Brussels style)
+
+Dark navy: #0B1F33
+
+Light gray background: #F5F7F9
+
+Accent gold: #C89B3C
+
+Text: #1C1C1C
+
+4. Section-by-section build (THIS IS THE KEY)
+SECTION 1 — HERO
+
+Add:
++ → Strip → Blank
+
+Settings:
+
+Height: 80–90vh
+
+Background: solid navy OR subtle world map image
+
+Text aligned left or center
+
+Text:
+
+Brussels Institute for Diplomacy, Geopolitics and Peace Studies
+
+
+Subtext:
+
+Executive training, policy research, and strategic dialogue at the intersection
+of EU, UN, and NATO affairs.
+
+
+Button:
+
+Text: Explore Our Programs
+
+Link → Anchor → Programs
+
+Add anchor name: hero
+
+SECTION 2 — WHO WE ARE
+
+Add: Strip → Blank
+Max width: 900px
+
+Text:
+
+WHO WE ARE
+
+
+Body:
+
+The Brussels Institute for Diplomacy, Geopolitics and Peace Studies is an independent
+institute based in Brussels, operating at the intersection of European Union,
+United Nations, and NATO affairs.
+
+We support diplomats, senior officials, and international professionals in addressing
+today’s most pressing challenges in foreign policy, geopolitics, security,
+peacebuilding, and global governance.
+
+
+Anchor name: about
+
+SECTION 3 — OUR MISSION (highlighted)
+
+Add: Strip → Blank
+Background: light gray #F5F7F9
+
+OUR MISSION
+
+To enhance diplomatic capacity, global geopolitical understanding, and strategic foresight
+within EU, UN, and NATO frameworks by delivering high-impact training, rigorous research,
+and informed policy engagement in support of peace, security, and effective global governance.
+
+
+Anchor: mission
+
+SECTION 4 — KEY FOCUS AREAS (3 columns)
+
+Add: Strip → Columns → 3 columns
+
+Column 1 – Diplomacy
+
+Use bullet list
+
+Column 2 – Geopolitics
+
+Column 3 – Peace Studies
+
+(Use the exact bullet points we already defined.)
+
+Anchor: focus
+
+SECTION 5 — WHAT WE DO (cards)
+
+Add: Strip → Repeater or Boxes (3)
+
+Each box:
+
+Title
+
+Short paragraph
+
+Titles:
+
+Capacity Building & Training
+
+Policy-Relevant Research
+
+Strategic Dialogue Platforms
+
+Anchor: whatwedo
+
+SECTION 6 — TRAINING & PROGRAM AREAS
+
+This is where Wix shines.
+
+Add:
++ → Interactive → Accordion
+
+Create 5 accordion items:
+
+NATO, EU & UN Affairs
+
+Geopolitics & Strategic Studies
+
+Negotiation, Mediation & Conflict Resolution
+
+Tech Diplomacy & Global Governance
+
+Interreligious Dialogue & Peacebuilding
+
+Paste bullet lists inside each accordion panel.
+
+Anchor: programs
+
+SECTION 7 — PROGRAM OUTCOMES
+
+Add: Strip → Blank
+Background: light gray
+
+Use icons + text or simple bullets:
+
+✔ Practical diplomatic and negotiation skills
+✔ Strategic geopolitical insights
+✔ EU, UN, NATO institutional knowledge
+✔ Capacity to address technology-driven challenges
+
+Anchor: outcomes
+
+SECTION 8 — STRATEGIC DIALOGUES
+
+Add: Strip → Blank
+
+STRATEGIC DIALOGUES – BRUSSELS DIALOGUES
+
+The Institute organizes Strategic Dialogues as neutral and credible platforms where
+policymakers, experts, and stakeholders engage on pressing issues in foreign policy,
+security, and peace.
+
+
+Bullets:
+
+High-level policy coordination
+
+Expert knowledge exchange
+
+Confidential consultations
+
+Addressing emerging strategic challenges
+
+Anchor: dialogues
+
+SECTION 9 — CALL TO ACTION
+
+Add: Strip → Blank
+Background: navy
+
+Text:
+
+Engage with the Brussels Institute for Diplomacy,
+Geopolitics and Peace Studies
+
+
+Buttons:
+
+Contact Us
+
+Explore Programs
+
+Anchor: contact
+
+5. Navigation menu (one-page magic)
+
+Add Horizontal Menu → Link each item to anchors:
+
+About
+Mission
+Focus Areas
+Programs
+Dialogues
+Contact
+
+
+Enable sticky menu.
+
+6. What NOT to do (important)
+
+❌ No stock “business people smiling”
+
+❌ No long paragraphs
+
+❌ No flashy animations
+
+❌ No too many fonts
+
+Less = more authority.
+
+7. Want me to go further?
+
+I can:
+
+Write shorter Wix-optimized text blocks
+
+Choose exact Wix fonts
+
+Create a mobile-only layout strategy
+
+Help with SEO title & meta descriptions
+
+Prepare EN / FR language switch
+
+Tell me what you want next and I’ll walk you through it step by step.
+
+can you give me a prototype of the website pls 
+
+Absolutely 👍
+What I can give you here is a clear visual prototype / wireframe of your one-page Wix website — exactly how it should look and flow — so you can rebuild it section by section inside Wix without guessing.
+
+Think of this as your blueprint.
+
+ONE-PAGE WEBSITE PROTOTYPE (WIREFRAME)
+4
+🔷 OVERALL FEEL
+
+Clean
+
+Serious
+
+Institutional
+
+“Brussels / policy / diplomacy”
+
+Lots of white space
+
+Clear hierarchy (big titles, short text)
+
+🧭 SCROLLING PROTOTYPE (TOP → BOTTOM)
+
+Below is exactly what appears on screen, section by section.
+
+① HERO SECTION (Full screen)
+--------------------------------------------------
+|                                                |
+|  Brussels Institute for Diplomacy,              |
+|  Geopolitics and Peace Studies                  |
+|                                                |
+|  Executive training, policy research, and       |
+|  strategic dialogue at the intersection of     |
+|  EU, UN, and NATO affairs.                      |
+|                                                |
+|  [ Explore Our Programs ]                       |
+|                                                |
+--------------------------------------------------
+
+
+Background:
+
+Dark navy OR subtle world map / Brussels image
+Height:
+
+80–90% of screen
+
+② WHO WE ARE
+--------------------------------------------------
+|  WHO WE ARE                                    |
+|                                                |
+|  The Brussels Institute for Diplomacy,          |
+|  Geopolitics and Peace Studies is an            |
+|  independent institute based in Brussels,       |
+|  operating at the intersection of EU, UN,       |
+|  and NATO affairs.                              |
+|                                                |
+|  We support diplomats, senior officials,        |
+|  and international professionals in             |
+|  addressing today’s most pressing challenges   |
+|  in foreign policy, geopolitics, security,     |
+|  peacebuilding, and global governance.          |
+--------------------------------------------------
+
+
+Max width: 800–900px
+Very important: not full-width text (this = credibility)
+
+③ OUR MISSION (Highlighted strip)
+--------------------------------------------------
+|  OUR MISSION                                   |
+|                                                |
+|  To enhance diplomatic capacity, global         |
+|  geopolitical understanding, and strategic     |
+|  foresight within EU, UN, and NATO frameworks  |
+|  by delivering high-impact training, rigorous  |
+|  research, and informed policy engagement in   |
+|  support of peace, security, and effective     |
+|  global governance.                             |
+--------------------------------------------------
+
+
+Background: light grey
+This visually separates values from description.
+
+④ KEY FOCUS AREAS (3 columns)
+--------------------------------------------------
+|  KEY FOCUS AREAS                               |
+|                                                |
+|  Diplomacy        Geopolitics       Peace       |
+|  ---------        -----------       ------      |
+|  • Negotiation    • Power dynamics  • Mediation |
+|  • Crisis mgmt    • Geoeconomics    • Post-conf |
+|  • Public diplo   • Hybrid threats  • Security  |
+|  • EU/UN/NATO     • Tech impacts    • Int law   |
+--------------------------------------------------
+
+
+This is a “scan section”
+People understand your scope in 5 seconds.
+
+⑤ WHAT WE DO (3 cards)
+--------------------------------------------------
+|  WHAT WE DO                                    |
+|                                                |
+|  [ Capacity Building ]  [ Research ]  [ Dialogues ]
+|                                                |
+|  Executive training     Policy-relevant          |
+|  and professional       research supporting      |
+|  programs for           policymakers and         |
+|  diplomats and          institutions.            |
+|  officials.                                     |
+--------------------------------------------------
+
+
+Design tip: subtle shadow or border on cards.
+
+⑥ TRAINING & PROGRAM AREAS (Accordion)
+--------------------------------------------------
+|  TRAINING & PROGRAM AREAS                      |
+|                                                |
+|  ▸ NATO, EU & UN Affairs                       |
+|  ▸ Geopolitics & Strategic Studies              |
+|  ▸ Negotiation & Conflict Resolution            |
+|  ▸ Tech Diplomacy & Global Governance           |
+|  ▸ Interreligious Dialogue & Peacebuilding      |
+--------------------------------------------------
+
+
+When opened:
+
+▾ NATO, EU & UN Affairs
+  • NATO governance and security
+  • EU foreign and defence policy
+  • UN peacekeeping missions
+
+
+This keeps the page short but powerful.
+
+⑦ PROGRAM OUTCOMES
+--------------------------------------------------
+|  PROGRAM OUTCOMES                              |
+|                                                |
+|  ✓ Practical diplomatic skills                 |
+|  ✓ Strategic geopolitical insights             |
+|  ✓ EU, UN, NATO institutional knowledge         |
+|  ✓ Capacity to manage complex global risks     |
+--------------------------------------------------
+
+
+Icons help here, but keep them minimal.
+
+⑧ STRATEGIC DIALOGUES – BRUSSELS DIALOGUES
+--------------------------------------------------
+|  STRATEGIC DIALOGUES                           |
+|  BRUSSELS DIALOGUES                            |
+|                                                |
+|  Neutral and credible platforms where           |
+|  policymakers, experts, and stakeholders        |
+|  engage on pressing foreign policy, security,   |
+|  and peace issues.                              |
+|                                                |
+|  • High-level policy coordination               |
+|  • Expert knowledge exchange                    |
+|  • Confidential consultations                  |
+|  • Emerging strategic challenges                |
+--------------------------------------------------
+
+
+This section = prestige.
+
+⑨ FINAL CALL TO ACTION
+--------------------------------------------------
+|                                                |
+|  Engage with the Brussels Institute for         |
+|  Diplomacy, Geopolitics and Peace Studies       |
+|                                                |
+|  [ Contact Us ]     [ Explore Programs ]        |
+|                                                |
+--------------------------------------------------
+
+
+Dark background again → visual closure.
+
+⑩ FOOTER
+--------------------------------------------------
+|  Brussels Institute for Diplomacy,              |
+|  Geopolitics and Peace Studies                  |
+|  Brussels, Belgium                              |
+|                                                |
+|  © 2026 All Rights Reserved                     |
+--------------------------------------------------
+
+🎯 How to use this in Wix (important)
+
+When you’re in Wix:
+
+Each box above = one Strip
+
+Each title = Heading 2
+
+Each subsection = Paragraph or List
+
+Add anchors to every section
+
+Build desktop first → then adjust mobile
+
+Next (I can do this too)
+
+If you want, next I can:
+
+Create a Figma-style wireframe (text + spacing exact)
+
+Give you exact Wix font + size values
+
+Design mobile-only prototype
+
+Prepare copy-paste text blocks sized for Wix
+
+Just tell me 👉
+Desktop first or mobile first?
