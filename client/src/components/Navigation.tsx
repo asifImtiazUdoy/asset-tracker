@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ContactModal } from "@/components/ContactModal";
-import logoImg from "@assets/Brussels_Institute_1770363386884.png";
+import logoImg from "@assets/Brussels_Institute_1770363386884.jpeg";
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);

@@ -26,7 +26,7 @@ import {
   ChevronRight,
 } from "lucide-react";
 import { useState, useRef, useEffect, useCallback } from "react";
-import logoImg from "@assets/Brussels_Institute_1770363386884.png";
+import logoImg from "@assets/Brussels_Institute_1770363386884.jpeg";
 import brusselsImg from "@assets/1_1770364375709.png";
 import heroImg1 from "@assets/6_1770364745985.png";
 import heroImg2 from "@assets/10_1770364759673.png";
@@ -839,7 +839,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8 lg:gap-16 items-start">
               <motion.div variants={fadeInLeft}>
                 <h3 className="text-2xl md:text-3xl lg:text-4xl font-serif text-navy leading-snug">
-                  Spaces for Learning and Innovation
+                  A Living Laboratory for Global Innovation
                 </h3>
               </motion.div>
 
