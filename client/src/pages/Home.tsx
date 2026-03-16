@@ -1418,7 +1418,7 @@ export default function Home() {
       </section>
 
       {/* TESTIMONIALS */}
-      <section
+      {/* <section
         className="py-28 bg-white overflow-hidden"
         data-testid="section-testimonials"
       >
@@ -1500,7 +1500,7 @@ export default function Home() {
             ))}
           </motion.div>
         </div>
-      </section>
+      </section> */}
 
       {/* 9. CALL TO ACTION */}
       <section
